@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+
+    <style>
+        #my_collage {
+            display: grid;
+            /* background: no-repeat center/100% url(background.jpg); */
+            /* background: no-repeat center/100% url(background-2.png); */
+            /* background: no-repeat center/100% url(https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-hand-drawn-minimalist-modern-education-concept-sticker-collage-background-image_529028.jpg); */
+            /* background: no-repeat center/100% url(https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-hand-drawn-minimalist-modern-education-concept-sticker-collage-background-image_529028.jpg); */
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: 65px 60px 65px 60px 65px 65px 3px 3px 3px;
+            width: min-content;
+            grid-gap: 12.5px;
+            padding: 20px;
+        }
+
+        img {
+            width: 75px;
+            height: 75px;
+            object-fit: cover;
+        }
+
+        #grid-item-17 {
+            grid-column: 5 / 7;
+            grid-row: 5 / 7;
+            width: 162.5px;
+            height: 162.5px;
+            border-bottom-right-radius: 25px;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            height: 50px;
+            background-color: white;
+            border-radius: 5px;
+            align-items: center;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        #outside_collage{
+            background: no-repeat center/100% url(background.png);
+            width: 55%;
+            height: 120vh;
+        }
+
+        #last-row {
+            text-align: left;
+            grid-column: 5 / 7;
+            grid-row: 7 / 9;
+            width: 165px;
+            height: 40px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outside_collage">
+        <div id="my_collage">
+            <img src="image1 (1).jpg" style="border-top-left-radius: 25px;">
+            <img src="image1 (2).jpg">
+            <img src="image1 (3).jpg">
+            <img src="image1 (4).jpg">
+            <img src="image1 (5).jpg">
+            <img src="image1 (6).jpg" style="border-top-right-radius: 25px;">
+            <p>Monumento ó vilamartinés ausente; 1991</p>
+            <p>Xavier Pousa con Carmela e os seus fillos de Keila</p>
+            <p>Segura Torrella</p>
+            <p>Deseño da praza elíptica, 1997</p>
+            <p>Autor: Josef Albers, 1954</p>
+            <p>Bathub Collage; Tom Wesselmann, 1963</p>
+            <img src="image1 (7).jpg">
+            <img src="image1 (8).jpg">
+            <img src="image1 (9).jpg">
+            <img src="image1 (10).jpg">
+            <img src="image1 (11).jpg">
+            <img src="image1 (12).jpg">
+            <p>Equipo crónica; 1965</p>
+            <p>La estación de perpiñán; Salvador Dalí, 1965</p>
+            <p>Catedral de Mondoñedo</p>
+            <p>Interior de la casa Jean-Pierre Raynaud</p>
+            <p>Monumento ó alcalde López Pérez; 1958</p>
+            <p>Catedral de Lugo</p>
+            <img src="image1 (13).jpg">
+            <img src="image1 (14).jpg">
+            <img src="image1 (15).jpg">
+            <img src="image1 (16).jpg">
+            <img id="grid-item-17" src="image1 (17).jpg">
+            <p>Monumento a San Francisco</p>
+            <p>Catedral de Santiago</p>
+            <p>Catedral de Santiago</p>
+            <p>Catedral de Luego</p>
+            <p id="last-row">Catedral de Santiago</p>
+            <p style="grid-column: 5 / 7;
+        grid-row: 8 / 10;
+        text-align: center;
+        width: 165px;
+        height: 3px;
+        border-bottom-right-radius: 25px;">de San Martiño Pinario; 1627-1649</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
